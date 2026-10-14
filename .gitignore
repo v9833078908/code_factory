@@ -1,0 +1,16 @@
+# Local only
+vendor/
+.scratch/
+private/
+.DS_Store
+.env
+.env.*
+
+# Docs are private by default: they describe the owner's infrastructure,
+# corporate projects and working patterns. Publish a doc deliberately by
+# adding an explicit "!" rule below after checking it for private details.
+docs/*
+!docs/research/
+docs/research/*
+!docs/research/paperclip-analysis.md
+!docs/research/paperclip-for-code-factory.md
